@@ -1,0 +1,89 @@
+/* END OF HEADER SECTION, BEGINNING OF MAIN SECTION. */
+
+main {
+    width: 100vw;
+    height: 85vh;
+    background-image: url(../images/AdobeStock_76902461.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main::before {
+    content: '';
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    width: 100vw;
+    height: 85vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main > div {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+main div > span {
+    font-size: 20pt;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 5%;
+}
+
+main div a {
+    font-weight: lighter;
+    color: rgb(63, 63, 63);
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+}
+
+main div span:last-child {
+    position: relative;
+    font-size: 14pt;
+}
+
+main div span:last-child::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    transition: all 0.5s ease-in-out;
+    height: 3px;
+    background-color: black;
+}
+
+main div a:hover span#shop-now-button::before {
+    width: 100%;
+}
+
+/* END OF MAIN SECTION, START OF MOTTO SECTION. */
+
+#motto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+#motto strong {
+    font-size: 30pt;
+    font-weight: 300;
+    padding-left: 10%;
+}
+
+#motto small {
+    font-weight: 100;
+    padding-left: 10%;
+}
+
+/* END OF MOTTO SECTION, START OF FOOTER SECTION. */

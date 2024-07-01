@@ -1,0 +1,81 @@
+{
+    "floralTeaMenu": [
+        {
+            "name": "Chamomile Tea",
+            "description": "A soothing herbal tea made from dried chamomile flowers.",
+            "price": "$5.99",
+            "image-src": "AdobeStock_170595887.jpeg"
+        }, {
+            "name": "Jasmine Tea",
+            "description": "A fragrant tea made by blending green tea leaves with jasmine blossoms.",
+            "price": "$3.99",
+            "image-src": "AdobeStock_216007860.jpeg"
+        }, {
+            "name": "Rose Tea",
+            "description": "A delicate tea made from dried rose petals.",
+            "price": "$4.99",
+            "image-src": "AdobeStock_817573784.jpeg"
+        }, {
+            "name": "Osmanthus Tea",
+            "description": "A fragrant tea made from osmanthus flowers, often blended with green or black tea.",
+            "price": "$5.99",
+            "image-src": "AdobeStock_840934813.jpeg"
+        }
+    ],
+    "steepedBrewMenu": [
+        {
+            "name": "Yerba Mate",
+            "description": "A traditional South American tea made from the leaves of the yerba mate plant.",
+            "price": "$3.99",
+            "image-src": "AdobeStock_267486728.jpeg"
+        }, {
+            "name": "Black Tea",
+            "description": "A robust and full-bodied tea made from fully oxidized tea leaves.",
+            "price": "$3.99",
+            "image-src": "AdobeStock_343153485.jpeg"
+        }, {
+            "name": "Oolong Tea",
+            "description": "A traditional Chinese tea made from partially oxidized tea leaves.",
+            "price": "$4.99",
+            "image-src": "AdobeStock_347624693.jpeg"
+        }, {
+            "name": "Matcha Green Tea",
+            "description": "A finely ground green tea powder from Japan, traditionally whisked into hot water.",
+            "price": "$6.99",
+            "image-src": "AdobeStock_613536628.jpeg"
+        }
+    ],
+    "sweetTreatMenu": [
+        {
+            "name": "Chocolate Brownie",
+            "description": "A rich and fudgy chocolate brownie topped with walnuts.",
+            "price": "$3.50",
+            "image-src": "AdobeStock_47299417.jpeg"
+        }, {
+            "name": "New York Cheesecake",
+            "description": "Creamy cheesecake with a graham cracker crust, topped with fresh berries.",
+            "price": "$4.50",
+            "image-src": "AdobeStock_348253398.jpeg"
+        }, {
+            "name": "Vanilla Cupcake",
+            "description": "Classic vanilla cupcake with buttercream frosting and sprinkles.",
+            "price": "$2.00",
+            "image-src": "AdobeStock_173802382.jpeg"
+        }, {
+            "name": "Strawberry Shortcake",
+            "description": "Layers of sponge cake, fresh strawberries, and whipped cream.",
+            "price": "$3.75",
+            "image-src": "AdobeStock_147151763.jpeg"
+        }, {
+            "name": "Chocolate Chip Cookies",
+            "description": "Homemade cookies packed with chocolate chips, served warm.",
+            "price": "$1.50",
+            "image-src": "AdobeStock_200613638.jpeg"
+        }, {
+            "name": "Red Velvet Cake",
+            "description": "Moist red velvet cake with cream cheese frosting.",
+            "price": "$4.00",
+            "image-src": "AdobeStock_264846889.jpeg"
+        }
+    ]
+}

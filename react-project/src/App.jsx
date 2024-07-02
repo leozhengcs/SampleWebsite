@@ -2,7 +2,8 @@ import './App.css'
 import Header from './components/header/Header.jsx'
 import Footer from './components/footer/Footer.jsx'
 import React, {useState} from 'react'
-import MenuPage from './pages/menuPage/Menu.jsx'
+import MenuPage from './pages/menuPage/MenuPage.jsx'
+import AboutPage from './pages/aboutPage/AboutPage.jsx'
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
         return <></>;
       case 'menu':
         return <MenuPage />;
+      case 'about':
+        return <AboutPage />;
       default:
         return <Home />;
     }

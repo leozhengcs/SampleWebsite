@@ -1,6 +1,6 @@
 import React from 'react'
 import cafeLogo from '/images/LogoW.png'
-import '/styles/templates/header.css'
+import './header.css'
 
 export default function Header({ selectedPage }) {
     return (
@@ -13,7 +13,7 @@ export default function Header({ selectedPage }) {
             </div>
             <div id="nav-pages">
                 <a>Our Specialty</a>
-                <a>About Us</a>
+                <a onClick={() => selectedPage('about')}>About Us</a>
                 <a onClick={() => selectedPage('menu')}>Menu</a>
                 <a>Careers</a>
                 <div id="order-now-button">

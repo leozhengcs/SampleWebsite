@@ -34,35 +34,35 @@ main div section a {
     width: 120px;
 }
 
-main div#floral-teas {
+.floral-teas {
     grid-row: 1;
     grid-column: 1;
     width: 100%;
     height: 100%;
-    background-image: url(../images/AdobeStock_218532663.jpeg);
+    background-image: url(/images/AdobeStock_218532663.jpeg);
     background-position: 30%;
     background-size: cover;
     position: relative;
 }
 
-main div#steeped-brews {
+.steeped-brews {
     grid-row: 1;
     grid-column: 2;
     width: 100%;
     height: 100%;
-    background-image: url(../images/AdobeStock_228602862.jpeg);
+    background-image: url(/images/AdobeStock_228602862.jpeg);
     background-position: 30% bottom;
     background-repeat: no-repeat;
     background-size: 140%;
     position: relative;
 }
 
-main div#sweet-treats {
+.sweet-treats {
     grid-row: 1;
     grid-column: 3;
     width: 100%;
     height: 100%;
-    background-image: url(../images/AdobeStock_388427167.jpeg);
+    background-image: url(/images/AdobeStock_388427167.jpeg);
     background-position: 70% bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,13 +85,13 @@ main div#sweet-treats {
 }
 
 /* END OF MAIN, BEGINNING OF MENU SECTIONS. */
-#menu {
+.menu {
     width: 100%;
     height: auto;
     background-color: #AFBB89;
 }
 
-#menu h1 {
+.menu-h1 {
     margin: 0;
     padding: 5% 0% 5% 5%;
     font-weight: lighter;
@@ -99,7 +99,7 @@ main div#sweet-treats {
     font-size: 28pt;
 }
 
-#menu h2 {
+.menu-h2 {
     margin: 0;
     color: white;
     padding: 2% 2% 2% 5%;
@@ -128,7 +128,7 @@ main div#sweet-treats {
     height: 100%;
 }
 
-.menu-item-container:nth-child(even) .menu-item {
+.menu-item-container:nth-child(even).menu-item {
     width: 500px;
     height: 150px;
     border-radius: 30px;
@@ -139,7 +139,7 @@ main div#sweet-treats {
     margin-bottom: 25px;
 }
 
-.menu-item-container:nth-child(odd) .menu-item {
+.menu-item-container:nth-child(odd).menu-item {
     width: 500px;
     height: 150px;
     border-radius: 30px;
@@ -150,31 +150,30 @@ main div#sweet-treats {
     margin-bottom: 25px;
 }
 
-.menu-item .description {
+.description {
     grid-column: 1;
     grid-row: 1;
     display: flex;
     flex-direction: column;
-    padding: 10px 0 0 25px;
+    padding-left: 25px;
     color: white;
     position: relative;
 }
 
-.menu-item .description .item-description {
+.item-name {
+    font-weight: 500;
+}
+
+.item-description {
     font-size: 10pt;
     padding-bottom: 10px;
 }
 
-.menu-item .description .item-price {
-    position: absolute;
-    bottom: 20px;
+.item-price {
+    font-weight: lighter;
 }
 
-.menu-item .description p {
-    font-weight: 500;
-}
-
-.menu-item .item-image {
+.item-image {
     grid-column: 2;
     grid-row: 1;
     display: flex;
@@ -194,7 +193,7 @@ main div#sweet-treats {
     align-items: center;
 }
 
-.item-image-container img {
+.img {
     width: 100%;
     height: 100%;
     object-fit: cover;

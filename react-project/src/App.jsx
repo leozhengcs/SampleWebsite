@@ -11,7 +11,7 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'home':
-        return <MenuPage />;
+        return <></>;
       case 'menu':
         return <MenuPage />;
       default:
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header selectedPage={setCurrentPage}/>
       {renderPage()}
       <Footer />
     </>

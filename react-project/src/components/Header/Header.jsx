@@ -2,11 +2,11 @@ import React from 'react'
 import cafeLogo from '/images/LogoW.png'
 import '/styles/templates/header.css'
 
-export default function Header() {
+export default function Header({ selectedPage }) {
     return (
         <nav className="header">
             <div className="logo-container">
-                <a onClick={() => setCurrentPage('home')}>
+                <a onClick={() => selectedPage('home')}>
                     <img src={cafeLogo} alt="cafe logo" id="cafe-logo"/>
                 </a>
                 <small>Experience Sustainability</small>
@@ -14,7 +14,7 @@ export default function Header() {
             <div id="nav-pages">
                 <a>Our Specialty</a>
                 <a>About Us</a>
-                <a onClick={() => setCurrentPage('menu')}>Menu</a>
+                <a onClick={() => selectedPage('menu')}>Menu</a>
                 <a>Careers</a>
                 <div id="order-now-button">
                     <a>Order Now</a>

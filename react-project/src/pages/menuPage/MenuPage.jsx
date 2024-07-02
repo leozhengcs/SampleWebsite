@@ -29,23 +29,23 @@ export default function MenuPage() {
     }, []);
 
     return ( <>
-        <main>
+        <main className={styles.main}>
             <div className={`${styles['featured-item']} ${styles['floral-teas']}`} onClick={() => document.getElementById('floral-tea-header').scrollIntoView()}>
-                <section>
-                    <span>Floral Teas</span>
-                    <a href="#">View Menu</a>
+                <section className={styles.section}>
+                    <span className={styles.span}>Floral Teas</span>
+                    <a className={styles.a}>View Menu</a>
                 </section>
             </div>
             <div className={`${styles['featured-item']} ${styles['steeped-brews']}`} onClick={() => document.getElementById('steeped-brew-header').scrollIntoView()}>
-                <section>
-                    <span>Steeped Brews</span>
-                    <a href="#">View Menu</a>
+                <section className={styles.section}>
+                    <span className={styles.span}>Steeped Brews</span>
+                    <a className={styles.a}>View Menu</a>
                 </section>
             </div>
             <div className={`${styles['featured-item']} ${styles['sweet-treats']}`} onClick={() => document.getElementById('sweet-treat-header').scrollIntoView()}>
-                <section>
-                    <span>Sweet Treats</span>
-                    <a href="#">View Menu</a>
+                <section className={styles.section}>
+                    <span className={styles.span}>Sweet Treats</span>
+                    <a className={styles.a}>View Menu</a>
                 </section>
             </div>
         </main>

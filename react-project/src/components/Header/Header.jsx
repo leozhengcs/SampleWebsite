@@ -4,9 +4,9 @@ import '/styles/templates/header.css'
 
 export default function Header() {
     return (
-        <nav class="header">
-            <div class="logo-container">
-                <a href="/index.html">
+        <nav className="header">
+            <div className="logo-container">
+                <a onClick={() => setCurrentPage('home')}>
                     <img src={cafeLogo} alt="cafe logo" id="cafe-logo"/>
                 </a>
                 <small>Experience Sustainability</small>
@@ -14,7 +14,7 @@ export default function Header() {
             <div id="nav-pages">
                 <a>Our Specialty</a>
                 <a>About Us</a>
-                <a href="/menu.html">Menu</a>
+                <a onClick={() => setCurrentPage('menu')}>Menu</a>
                 <a>Careers</a>
                 <div id="order-now-button">
                     <a>Order Now</a>

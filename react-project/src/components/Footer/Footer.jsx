@@ -6,7 +6,7 @@ export default function Footer() {
         <footer>
         <address>
             <form action="">
-                <label for="email-newsletter">Stay Updated</label>
+                <label htmlFor="email-newsletter">Stay Updated</label>
                 <input type="email" placeholder="Enter your email address" id="email-newsletter" />
                 <button type="submit" id="subscribe-button">Subscribe</button>
             </form>
@@ -20,12 +20,12 @@ export default function Footer() {
                 </a>
             </div>
         </address>
-        <div class="location">
+        <div className="location">
             <h1>Visit Us</h1>
             <span>1234, Summer Drive, Richmond, BC</span>
-            <span>Call us at <span class="underline">123-456-7890</span></span>
+            <span>Call us at <span className="underline">123-456-7890</span></span>
         </div>
-        <div class="hours-of-operation">
+        <div className="hours-of-operation">
             <h1>Hours</h1>
             <div id="hours">
                 <span>Monday</span>

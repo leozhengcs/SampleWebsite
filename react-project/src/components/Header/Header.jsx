@@ -16,9 +16,6 @@ export default function Header({ selectedPage }) {
                 <a onClick={() => selectedPage('about')}>About Us</a>
                 <a onClick={() => selectedPage('menu')}>Menu</a>
                 <a onClick={() => selectedPage("career")}>Careers</a>
-                <div id="order-now-button">
-                    <a>Order Now</a>
-                </div>
             </div>
         </nav>
     )

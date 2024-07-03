@@ -7,7 +7,7 @@
 .maria-image {
     grid-column: 1;
     grid-row: 1;
-    background-image: URL("/images/AdobeStock_91692908.jpeg");
+    background-image: URL(/images/AdobeStock_91692908.jpeg);
     background-repeat: no-repeat;
     background-position: -150px;
     background-size: cover;

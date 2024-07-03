@@ -111,3 +111,30 @@ address button {
     grid-column: 2;
     text-align: right;
 }
+
+/* END OF Footer SECTION, START OF Slogan SECTION. */
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+}
+
+.slogan-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 15vh;
+}
+
+.slogan-content-container span {
+    font-size:xx-large;
+    font-weight: lighter;
+}
+
+.slogan-content-container p {
+    font-weight: lighter;
+}

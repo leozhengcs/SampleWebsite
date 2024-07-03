@@ -1,0 +1,52 @@
+.cover {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../images/AdobeStock_668959043.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -20vh;
+}
+
+.cover span {
+    color: white;
+    font-size:xx-large;
+    font-weight: lighter;
+    margin-left: 5vw;
+    z-index: 2;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    width: 100vw;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.text-container {
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container div {
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size:x-large;
+    font-weight: lighter;
+}
+
+.text-container span {
+    font-weight: bold;
+}

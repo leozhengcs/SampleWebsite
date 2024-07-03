@@ -4,6 +4,8 @@ import Footer from './components/footer/Footer.jsx'
 import React, {useState} from 'react'
 import MenuPage from './pages/menuPage/MenuPage.jsx'
 import AboutPage from './pages/aboutPage/AboutPage.jsx'
+import HomePage from './pages/homePage/HomePage.jsx'
+import CareerPage from './pages/careerPage/CareerPage.jsx'
 
 function App() {
 
@@ -12,13 +14,13 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'home':
-        return <></>;
+        return <HomePage />;
       case 'menu':
         return <MenuPage />;
       case 'about':
         return <AboutPage />;
-      default:
-        return <Home />;
+      case 'career':
+        return <CareerPage />;
     }
   };
 

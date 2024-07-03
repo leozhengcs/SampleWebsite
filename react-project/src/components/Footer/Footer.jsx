@@ -1,8 +1,15 @@
-import './footer.css'
+import './Footer.css'
 
 export default function Footer() {
 
     return (
+        <>
+        <div className='slogan'>
+            <div className='slogan-content-container'>
+                <span>EXPERIENCE SUSTAINABILITY WITH CHAFE</span>
+                <p>Preparing our signature delicacies with a conscious carbon footprint</p>
+            </div>
+        </div>
         <footer>
         <address>
             <form action="">
@@ -45,5 +52,6 @@ export default function Footer() {
             </div>
         </div>
     </footer>
+    </>
     )
 }

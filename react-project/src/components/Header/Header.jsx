@@ -1,6 +1,6 @@
 import React from 'react'
 import cafeLogo from '/images/LogoW.png'
-import './header.css'
+import './Header.css'
 
 export default function Header({ selectedPage }) {
     return (
@@ -15,7 +15,7 @@ export default function Header({ selectedPage }) {
                 <a>Our Specialty</a>
                 <a onClick={() => selectedPage('about')}>About Us</a>
                 <a onClick={() => selectedPage('menu')}>Menu</a>
-                <a>Careers</a>
+                <a onClick={() => selectedPage("career")}>Careers</a>
                 <div id="order-now-button">
                     <a>Order Now</a>
                 </div>

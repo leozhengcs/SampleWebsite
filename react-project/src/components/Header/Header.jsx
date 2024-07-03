@@ -1,6 +1,6 @@
 import React from 'react'
 import cafeLogo from '/images/LogoW.png'
-import './Header.css'
+import './header.css'
 
 export default function Header({ selectedPage }) {
     return (
